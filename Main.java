@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) 
 	{
-		//System.out.println(" Bonjour,quel est votre prénom ?");
-		//Scanner scanner = new Scanner(System.in);
-		//String unNom = scanner.nextLine();
-		//System.out.println("Bonjour " + unNom);
-		//somme();
-		//division();
+		System.out.println(" Bonjour,quel est votre prénom ?");
+		Scanner scanner = new Scanner(System.in);
+		String unNom = scanner.nextLine();
+		System.out.println("Bonjour " + unNom);
+		somme();
+		division();
 		volume();
 	}
 		
